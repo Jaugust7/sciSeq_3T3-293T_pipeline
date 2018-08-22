@@ -1,7 +1,7 @@
 # README for sci-RNA-seq data processing pipeline
-# Junyue Cao
-# Jay Shendure lab (Department of Genome Sciences, University of Washington)
-# 2017-08-06
+# Jonathan Augustin (adapted from Junyue Cao)
+# Loyal Goff lab (Department of Neuroscience, Johns Hopkins Medical Institute)
+# 2018-05-09
 
 This folder includes bash and python scripts for processing sci-RNA-seq data:
 
@@ -17,4 +17,4 @@ sam_split.py: this script accept a sam file and then split out single cells base
 
 sciRNAseq_count.py: this script accept a folder of single cell sam files, and a reference gtf file, then it generates a sparse gene count matrix for each single cell.
 
-The scripts is tested and ran on the server of Shendure lab (UW). Slight modifications may be needed for other environments. 
+The scripts is tested and ran on Maryland Advanced Research Computing Core (MARCC). Slight modifications may be needed for other environments. 
